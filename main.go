@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"goinoneear/grammar"
-)
+import "goinoneear/concurrency"
 
 func main()  {
-	fmt.Println("main executed")
-	grammar.Hello()
+	concurrency.SameTree()
 }

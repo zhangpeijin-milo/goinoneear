@@ -1,14 +1,8 @@
-package main
+package commonlib
 
-import (
-	"io"
-	"net/http"
-)
+import "fmt"
 
-func hello(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello world!")
-}
+func Http()  {
+	fmt.Print("http")
 
-func hehehe(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "hehehe")
 }
