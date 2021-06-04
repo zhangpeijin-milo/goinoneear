@@ -1,7 +1,9 @@
 package main
 
-import "goinoneear/concurrency"
+import (
+	"goinoneear/designpattern"
+)
 
 func main()  {
-	concurrency.SameTree()
+	designpattern.FactoryExample()
 }
